@@ -1,0 +1,35 @@
+.app-header__button-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.app-header__button {
+    font-size: 28px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.app-header__button:nth-child(3n) {
+    margin-right: 0;
+}
+
+.app-header__button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.app-header__button--active {
+    color: white;
+    background-color: blue;
+}
